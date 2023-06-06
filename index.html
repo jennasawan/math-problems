@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Problems</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>math problems</h1>
+    <div class="toggle-vis" id="instructions">choose the correct answer from the buttons below</div>
+
+  </header>
+
+  <main>
+    <section id="problem">
+      <div class="expression toggle-vis"></div>
+      <p>
+        problem: <span class="currentProblem">1</span>/10 | score: <span class="currentScore">0</span>
+      </p>
+    </section>
+    <section id="answers" class="toggle-vis">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+    <div class="buttons">
+    <button id="btnStartOver">new game</button>
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>

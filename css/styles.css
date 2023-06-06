@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+
+body {
+  height: 100vh;
+  font-family: 'M PLUS 1p', sans-serif;
+  background-color: black;
+  color:blanchedalmond
+}
+header, main{
+  width: 800px;
+  margin: auto;
+  text-align: center;
+
+}
+h1 {
+  font-size: 5rem;
+  margin-bottom: 1px;
+  color: indianred;
+  font-variant: small-caps;
+}
+#problem .expression {
+  font-size: 48px;
+  border: 1px solid indianred;
+  padding: 10px;
+  margin: 0 60px;
+}
+
+#instructions {
+  margin-bottom: 20px;
+}
+
+#answers ul {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+#answers li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  border:indianred 5px groove;
+  border-radius: 98px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  cursor: pointer;
+  background-color: blanchedalmond;
+  color:black;
+  
+}
+
+.buttons{
+  display: inline-flex;
+}
+
+button {
+  display: block;
+  margin: 20px 10px;
+  padding: 8px 12px;
+  background-color:indianred;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.hidden {
+  display:none;
+}
